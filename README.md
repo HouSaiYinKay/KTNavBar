@@ -22,7 +22,7 @@ pod 'KTNavBar'
 
 ## Author
 
-HouSaiYinKay, Kai.Tui@geely.com
+HouSaiYinKay, 510988176@qq.com
 
 ## License
 
