@@ -1,0 +1,16 @@
+PODS:
+  - KTNavBar (0.1.0)
+
+DEPENDENCIES:
+  - KTNavBar (from `../`)
+
+EXTERNAL SOURCES:
+  KTNavBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KTNavBar: 4aaec3c15b34197ff43430fe2d65a3aa329fd47c
+
+PODFILE CHECKSUM: 10cba1d5b76b36f7634bf745f650b7068493a1c8
+
+COCOAPODS: 1.11.2

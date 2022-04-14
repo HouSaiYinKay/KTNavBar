@@ -1,0 +1,6 @@
+framework module Pods_KTNavBar_Tests {
+  umbrella header "Pods-KTNavBar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

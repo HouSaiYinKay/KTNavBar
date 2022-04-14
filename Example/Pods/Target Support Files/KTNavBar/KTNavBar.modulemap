@@ -1,0 +1,6 @@
+framework module KTNavBar {
+  umbrella header "KTNavBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

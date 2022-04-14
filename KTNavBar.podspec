@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KTNavBar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KTNavBar.'
+  s.summary          = '通用的NavBar'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,17 +24,15 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/HouSaiYinKay/KTNavBar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'HouSaiYinKay' => 'Kai.Tui@geely.com' }
+  s.author           = { 'HouSaiYinKay' => '510988176@qq.com' }
   s.source           = { :git => 'https://github.com/HouSaiYinKay/KTNavBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+ 
   s.source_files = 'KTNavBar/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'KTNavBar' => ['KTNavBar/Assets/*.png']
-  # }
+  s.resources = 'KTNavBar/KTNavBar.bundle'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
